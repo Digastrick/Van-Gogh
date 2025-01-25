@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="css/style.min.css">
+    <title>van-gog</title>
+</head>
+<body>
+    <main>
+        <section class="section__start">
+  <header class="header-page">
+        <ul class="header-list">
+            <li class="header-list__item">Доставка и оплата</li>
+            <li class="header-list__item">Гарантия и возврат</li>
+            <li class="header-list__item">EN</li>
+        </ul>
+</header>
+  <nav class="menu">
+    <div class="menu__logo">
+        <img src="../src/img/Logo.svg" alt="logo">
+    </div>
+    <div class="menu__toggle" id="menuToggle">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </div>
+    <ul class="menu__list" id="menuList">
+        <li class="menu__item">Каталог</li>
+        <li class="menu__item">О компании</li>
+        <li class="menu__item">Контакты</li>
+        <li class="menu__actions">
+            <div class="menu__search">
+                <input type="text" class="search__input" placeholder="поиск">
+                <span class="search__icon"></span>
+            </div>
+            <button class="search__button">
+                <img class="search__img" src="../src/img/search.svg" alt="search">
+            </button>
+            <div class="menu__basket">
+                <div class="basket">
+                    <div class="basket-icon"></div>
+                    <div class="basket-count" id="item-count">0</div>
+                </div>
+                Корзина
+            </div>
+        </li>
+    </ul>
+</nav>
+<div class="overlay" id="overlay"></div>
+
+  <div class="content">
+    <h2 class="content__title">Результаты поиска</h2>
+    <div class="content__goods" id="content-goods"></div>
+</div>
+  <footer>
+    <div class="footer__container">
+    <div class="footer__protected">
+        <div class="footer__logo">
+            <img class="footer__img" src="../src/img/Logo.svg" alt="footerLogo">
+       </div>
+       <p class="footer__protection-text">
+        Этот сайт защищен от спама службой reCAPTCHA Google. Политика конфиденциальности/Условия предоставления услуг
+    </p>
+    </div>
+    <div class="footer__info">
+        <div class="footer__address">
+            <p>Адрес</p>
+            <p>Текст, Текст, Текст</p>
+        </div>
+        <div class="footer__contacts">
+            <p>Контакты</p>
+            <p>Email: urban.dwelling@yandex.com</p>
+            <p>Телефон: 8 (999) 999-99-99</p>
+        </div>
+    </div>   
+    <div class="footer__services">
+        <p>Услуги</p>
+        <ul>
+            <li>Каталог</li>
+            <li>О компании</li>
+            <li>Контакты</li>
+            <li>Доставка и оплата</li>
+            <li>Гарантия и возврат</li>
+        </ul>
+    </div>
+    <div class="footer__sub-info">
+        <div>
+            <p>Публичная оферта</p>
+            <p>Политика персональных данных</p>
+        </div>
+        <div>
+            <img src="../src/img/mir.svg" alt="mir">
+            <img src="../src/img/visa.svg" alt="visa">
+            <img src="../src/img/master-card.svg" alt="masterCard">
+        </div>
+    </div>
+</div>
+</footer>
+</section>
+    </main>
+<script src="../src/js/bagCount.js"></script>
+<script src="../src/js/products.js"></script>
+<script src="../src/js/visionSearch.js"></script>
+<script src="../src/js/visionMenu.js"></script>
+</body>
+</html>
