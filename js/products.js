@@ -1,6 +1,6 @@
 const products = [
     {
-        srcimg: "../img/imgProd1.jpg",
+        srcimg: "./img/imgProd1.jpg",
         name: "Встраиваемый светильник Markt",
         priceSale: "3 490 ₽",
         price: "5 060 ₽",
