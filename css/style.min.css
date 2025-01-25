@@ -1,22 +1,22 @@
 @font-face {
   font-family: "LatoBold";
-  src: url("./fonts/Lato-Bold.ttf") format("truetype"), url("./fonts/Lato-Bold.woff") format("woff"), url("./fonts/Lato-Bold.eot") format("eot");
+  src: url("../fonts/Lato-Bold.ttf") format("truetype"), url("../fonts/Lato-Bold.woff") format("woff"), url("../fonts/Lato-Bold.eot") format("eot");
 }
 @font-face {
   font-family: "LatoSemiBold";
-  src: url("./fonts/Lato-Semibold.ttf") format("truetype"), url("./fonts/Lato-Semibold.woff") format("woff"), url("./fonts/Lato-Semibold.eot") format("eot");
+  src: url("../fonts/Lato-Semibold.ttf") format("truetype"), url("../fonts/Lato-Semibold.woff") format("woff"), url("../fonts/Lato-Semibold.eot") format("eot");
 }
 @font-face {
   font-family: "LatoRegular";
-  src: url("./fonts/Lato-Regular.ttf") format("truetype"), url("./fonts/Lato-Regular.woff") format("woff"), url("./fonts/Lato-Regular.eot") format("eot");
+  src: url("../fonts/Lato-Regular.ttf") format("truetype"), url("../fonts/Lato-Regular.woff") format("woff"), url("../fonts/Lato-Regular.eot") format("eot");
 }
 @font-face {
   font-family: "KoratakiRegular";
-  src: url("./fonts/Korataki-Regular.ttf") format("truetype"), url("./fonts/Korataki-Regular.woff") format("woff"), url("./fonts/Korataki-Regular.eot") format("eot");
+  src: url("../fonts/Korataki-Regular.ttf") format("truetype"), url("../fonts/Korataki-Regular.woff") format("woff"), url("../fonts/Korataki-Regular.eot") format("eot");
 }
 @font-face {
   font-family: "RobotoRegular";
-  src: url("./fonts/roboto-regular.ttf") format("truetype"), url("./fonts/roboto-regular.woff") format("woff"), url("./fonts/roboto-regular.eot") format("eot");
+  src: url("../fonts/roboto-regular.ttf") format("truetype"), url("../fonts/roboto-regular.woff") format("woff"), url("../fonts/roboto-regular.eot") format("eot");
 }
 main {
   max-width: 100%;
@@ -162,7 +162,7 @@ section {
   transform: translateY(-50%);
   width: 20px;
   height: 20px;
-  background-image: url("./img/search.svg");
+  background-image: url("../img/search.svg");
   background-size: contain;
   background-repeat: no-repeat;
   pointer-events: none;
@@ -174,7 +174,7 @@ section {
 }
 
 .basket-icon {
-  content: url("./img/Bag.svg");
+  content: url("../img/Bag.svg");
   width: 40px;
   height: 40px;
   display: block;
